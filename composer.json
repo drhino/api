@@ -1,0 +1,18 @@
+{
+    "name": "wbadrh/api",
+    "type": "library",
+    "description": "JSON Restful API Router - League/Route & Zend/Diactoros.",
+    "keywords": ["json", "rest", "restful", "api", "route", "router", "routing", "fastroute", "fast-route", "php", "psr", "http", "zend", "zendframework", "diactoros", "booboo", "oop"],
+    "homepage": "https://github.com/wbadrh/api",
+    "license": "MIT",
+    "require": {
+        "league/route": "^3.0",
+        "zendframework/zend-diactoros": "^1.7",
+        "league/booboo": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "wbadrh\\API\\": "src/"
+        }
+    }
+}
